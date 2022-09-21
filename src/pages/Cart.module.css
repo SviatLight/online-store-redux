@@ -1,0 +1,49 @@
+.deleteAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 14%);
+  font-size: 1.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.deleteAll:hover {
+  color: rgb(70, 70, 70);
+  background-color: rgb(255, 34, 34);
+  transition: 0.2s ease-in-out;
+}
+
+.totalPrice {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #000;
+}
+
+.emptyCart {
+  margin: 50px auto;
+  width: 50%;
+  height: 100%;
+  padding: 50px 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 14%);
+  text-align: center;
+}
+
+.emptyCart h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.continueBuy {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.continueBuy:hover {
+  border-bottom: 1px solid #7e72f2;
+}

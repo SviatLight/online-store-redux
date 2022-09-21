@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 14%);
+  border-radius: 8px;
+  padding: 0 20px;
+  max-width: 280px;
+  width: 100%;
+  height: 100%;
+}
+
+.clearAllFilters {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--purple-color);
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
+
+.clearAllFilters:hover {
+  background-color: var(--purple-color-hover);
+  color: #fff;
+}
